@@ -24,7 +24,6 @@ The `:app` module is an [com.android.application](https://developer.android.com/
 
 The `:core` module is an [com.android.library](https://developer.android.com/studio/projects/android-library) for serving network requests. Providing the data source for the many features that require it.
 
-
 #### Common module
 
 The `:common` module is an [com.android.library](https://developer.android.com/studio/projects/android-library) only contains code and resources which are shared between feature modules. Reusing this way resources, layouts, views, and components in the different features modules, without the need to duplicate code.
@@ -33,9 +32,12 @@ The `:common` module is an [com.android.library](https://developer.android.com/s
 
 The `:feature_list` module is an [com.android.library](https://developer.android.com/studio/projects/android-library) which is a module containing a specific feature, isolated from the rest in accordance with business logic.
 
-
 ## Testing
 Local unit testing is done for ViewModel layer in `:feature_list` module.
+
+### Inspired from
+| [Sunflower](https://github.com/android/sunflower)
+| :-: |
 
 ## Libraries
 * [Android Jetpack](https://developer.android.com/jetpack)
